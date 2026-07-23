@@ -1,0 +1,139 @@
+/* Remove navigation underline */
+.masthead__menu-item.selected a {
+  border-bottom: none !important;
+}
+
+/* Remove line below navigation */
+.masthead {
+  border-bottom: none !important;
+}
+
+/* Remove footer top line */
+.page__footer {
+  border-top: none !important;
+}
+
+
+.page {
+  padding-left: 1rem;
+}
+
+
+/* Center author profile in sidebar */
+
+.author__avatar {
+  text-align: center;
+}
+
+.author__avatar img {
+  display: block;
+  margin: 0 auto;
+}
+
+.author__content {
+  text-align: center;
+}
+
+.author__name {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.author__bio {
+  text-align: center;
+  font-size: 0.9rem !important;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.author__urls-wrapper {
+  text-align: center;
+}
+
+.author__urls {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 0.9rem !important;
+}
+
+.author__urls li {
+  font-size: 0.9rem !important;
+}
+
+.author__urls li a {
+  font-size: 0.9rem !important;
+}
+
+
+
+/* Use more screen width */
+
+@media (min-width: 80em) {
+
+  #main {
+    max-width: 95%;
+  }
+
+  .sidebar {
+    width: 250px;
+  }
+
+  .page {
+    width: calc(100% - 280px);
+  }
+
+  .page__content {
+    max-width: none;
+  }
+
+}
+
+
+/* Research three-column layout */
+
+.research-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.research-item {
+  text-align: center;
+}
+
+.research-item h2 {
+  font-size: 1.2rem;
+  line-height: 1.3;
+}
+
+.research-item img {
+  width: 100%;
+  height: auto;
+}
+
+
+.research-item img {
+  width: 100%;
+  height: 280px;
+  object-fit: contain;
+}
+
+
+
+/* Research figure hover effect */
+
+.research-item img {
+  width: 100%;
+  height: 280px;
+  object-fit: contain;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.research-item img:hover {
+  transform: scale(1.2);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+

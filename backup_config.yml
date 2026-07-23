@@ -1,60 +1,50 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve -l -H localhost`. If you change this file, please restart the 
+# server process.
+
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default"   # Options: default, air, sunrise, mint, dirt, contrast
-#title                    : "Maya Khatun"
-title_separator          : "|"
-name                     : &name "Maya Khatun (She/Her)"
-description              : &description "Personal website of Maya Khatun, Postdoctoral Research Associate in Computational Chemistry at North Carolina State University."
-url                      : "https://mayakhatun.github.io"
-baseurl                  : ""
-repository               : "mayakhatun/mayakhatun.github.io"
+site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+title                    : "Dr. Maya Khatun"
+title_separator          : "-"
+name                     : &name "Maya Khatun"
+description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+url                      : https://academicpages.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+                                                           # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
+repository               : "academicpages/academicpages.github.io"
 
-# Site Author
+# Site Author - The following control what appear as part of the author content on the side bar.
+#               If a field is blank the icon and link will not appear, otherwise it will be shown.
+#               Additional customization can be done by editing /_includes/author-profile.html
 author:
-  # Profile
+  # Biographic information
   avatar           : "profile.jpg"
-  name             : "Maya Khatun"
-  bio              : "Postdoctoral Research Scholar"    
-  employer         : "North Carolina State University"
-  #location         : "Raleigh, North Carolina, USA"ss
-  uri              :
-  #email            : "mayakhatun429@gmail.com"
+  name             : "Postdoctoral Researcher in Computational Chemistry"
+  pronouns         : # example: "she/her"  
+  bio              : "Density Functional Theory (DFT), Electronic Structure Theory, Optical Properties, Metal Nanoclusters, Bio-Nano Hybrid Complex" 
+##location         : "United States of America"
+##  employer         : "North Carolina State University"
+  uri              : # URL
+  email            : "mayakhatun429@gmail.com" 
 
-  # Academic Profiles
-  #googlescholar    : "https://scholar.google.com/citations?user=H9ZRanQAAAAJ&hl=en"
-  #researchgate     : "https://www.researchgate.net/profile/Maya-Khatun"
-  #orcid            : "https://orcid.org/0000-0001-9959-4061"
-  academia         :
-  arxiv            :
-  inspire-hep      :
-  impactstory      :
-  semantic         :
-  ssrn             :
-  scopus           :
-  zotero           :
-
-  # Professional Profiles
-  #github           : "YOUR_GITHUB_USERNAME"
-  linkedin         :
-  xing             :
-
-  # Social Media
-  bluesky          :
-  facebook         :
-  flickr           :
-  instagram        :
-  kaggle           :
-  lastfm           :
-  mastodon         :
-  medium           :
-  soundcloud       :
-  stackoverflow    :
-  steam            :
-  telegram         :
-  tumblr           :
-  twitter          :
-  x                :
-  youtube          :
+  # Academic websites
+  academia         : # URL
+  arxiv            : # URL - Update with the correct link to your profile
+  googlescholar    : "https://scholar.google.com/citations?user=H9ZRanQAAAAJ&hl=en"
+  inspire-hep      : # URL
+  impactstory      : # URL
+  semantic         : # URL
+  ssrn             : # URL
+  # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  researchgate     : "https://www.researchgate.net/profile/Maya-Khatun?ev=hdr_xprf"
+  orcid            : "https://orcid.org/0000-0001-9959-4061"
+  scopus           : # URL
+  zotero           : # URL
 
 
   # Repositories and software development

@@ -37,3 +37,32 @@
     "layout/sidebar",
     "layout/json_cv"
 ;
+
+
+/* ===== Sticky Footer ===== */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.initial-content {
+    flex: 1;
+}
+
+.page__footer {
+    position: relative !important;
+    margin-top: auto;
+    width: 100%;
+    border-top: 1px solid var(--global-dark-border-color);
+    padding: 10px 0;
+}
+
+
+@import "custom";

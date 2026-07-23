@@ -25,23 +25,39 @@ import os
 import re
 
 #todo: incorporate different collection types rather than a catch all publications, requires other changes to template
+
+##publist = {
+#    "proceeding": {
+#        "file" : "publications.bib",
+#        "venuekey": "booktitle",
+#        "venue-pretext": "In the proceedings of ",
+#        "collection" : {"name":"publications",
+#                        "permalink":"/publication/"}
+#        
+#    },
+#    "journal":{
+#        "file": "pubs.bib",
+#        "venuekey" : "journal",
+#        "venue-pretext" : "",
+#        "collection" : {"name":"publications",
+#                        "permalink":"/publication/"}
+#    } 
+#}
+
+
 publist = {
-    "proceeding": {
-        "file" : "proceedings.bib",
-        "venuekey": "booktitle",
-        "venue-pretext": "In the proceedings of ",
-        "collection" : {"name":"publications",
-                        "permalink":"/publication/"}
-        
-    },
-    "journal":{
-        "file": "pubs.bib",
-        "venuekey" : "journal",
-        "venue-pretext" : "",
-        "collection" : {"name":"publications",
-                        "permalink":"/publication/"}
-    } 
+    "journal": {
+        "file": "publications.bib",
+        "venuekey": "journal",
+        "venue-pretext": "",
+        "collection": {
+            "name": "publications",
+            "permalink": "/publication/"
+        }
+    }
 }
+
+
 
 html_escape_table = {
     "&": "&amp;",

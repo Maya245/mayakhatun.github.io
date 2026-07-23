@@ -1,0 +1,17 @@
+---
+---
+
+/* Remove navigation underline */
+.masthead__menu-item.selected a {
+  border-bottom: none !important;
+}
+
+/* Remove line below navigation */
+.masthead {
+  border-bottom: none !important;
+}
+
+/* Remove footer top line */
+.page__footer {
+  border-top: none !important;
+}

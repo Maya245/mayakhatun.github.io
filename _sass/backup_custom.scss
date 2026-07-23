@@ -1,0 +1,52 @@
+/* Remove navigation underline */
+.masthead__menu-item.selected a {
+  border-bottom: none !important;
+}
+
+/* Remove line below navigation */
+.masthead {
+  border-bottom: none !important;
+}
+
+/* Remove footer top line */
+.page__footer {
+  border-top: none !important;
+}
+
+
+
+/* Center author profile in sidebar */
+
+.author__avatar {
+  text-align: center;
+}
+
+.author__avatar img {
+  display: block;
+  margin: 0 auto;
+}
+
+.author__content {
+  text-align: center;
+}
+
+.author__name {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.author__bio {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.author__urls-wrapper {
+  text-align: center;
+}
+
+.author__urls {
+  text-align: center;
+  margin-top: 5px;
+}
