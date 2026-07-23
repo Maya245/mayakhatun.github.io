@@ -6,7 +6,6 @@ title_separator          : "|"
 name                     : &name "Maya Khatun (She/Her)"
 description              : &description "Personal website of Maya Khatun, Postdoctoral Research Associate in Computational Chemistry at North Carolina State University."
 url                      : "https://mayakhatun.github.io"
-baseurl                  : ""
 repository               : "mayakhatun/mayakhatun.github.io"
 
 # Site Author
