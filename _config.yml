@@ -5,8 +5,14 @@ site_theme               : "default"   # Options: default, air, sunrise, mint, d
 title_separator          : "|"
 name                     : &name "Maya Khatun (She/Her)"
 description              : &description "Personal website of Maya Khatun, Postdoctoral Research Associate in Computational Chemistry at North Carolina State University."
-url                      : "https://mayakhatun.github.io"
-repository               : "mayakhatun/mayakhatun.github.io"
+
+url                      : "https://maya245.github.io"
+repository               : "Maya245/Maya245.github.io"
+baseurl                  : ""
+
+####url                      : "https://mayakhatun.github.io"
+###baseurl                  : ""
+###repository               : "mayakhatun/mayakhatun.github.io"
 
 # Site Author
 author:
