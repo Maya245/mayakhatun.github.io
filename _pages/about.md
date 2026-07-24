@@ -6,7 +6,7 @@ redirect_from:
   - /about.html
 ---
 
-<img src="/assets/images/banner.png" alt="Theoretical and Computational Chemistry Research" style="width:200%; border-radius:10px; margin-bottom:30px;">
+<img src="/assets/images/banner.png" alt="Theoretical and Computational Chemistry Research" style="width:100%; border-radius:10px; margin-bottom:30px;">
 
 
 Hi there ! I am a Postdoctoral Research Scholar in the Department of Chemistry at the North Carolina State University, USA. My research lies at the interface of theoretical chemistry, computational chemistry, and nanoscience, focusing on applying first-principles methods to understand the structure, stability, and electronic properties of atomically precise nanoclusters.
